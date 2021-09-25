@@ -1,0 +1,42 @@
+.pin-input-container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.pin-input{
+  width: 3.5em;
+  height: 3.5em;
+  font-size: 1.5em;
+  text-align: center;
+  margin: .3em;
+  color: white;
+  border: .05rem solid white;
+  background: inherit;
+  transition: transform 0.1s ease-out;
+  &:focus{
+    transform: scale(1.1);
+    outline: 0;
+    border: .05rem solid white;
+  }
+}
+
+.pincode-input-container
+{
+  .pincode-input-text
+  {
+    padding:0 !important;
+    margin:0 2px;
+    text-align:center;
+    border: 1px solid;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+  }
+  .pincode-input-text:focus
+  {
+    outline:none;
+    box-shadow:none;
+  }
+}
